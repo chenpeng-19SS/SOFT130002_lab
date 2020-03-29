@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+ul::after{
+    clear: both;
+    content: "";
+    display: block;
+
+}
+li {
+    float: left;
+    margin-right: 2%;
+}
+li input  {
+    margin-right: 5px;
+
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    height: 2.5rem;
+    width: 40rem;
+}
+
+input[name="captcha"] {
+    width: 8rem;
+    height: 2.2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+textarea {
+    height: 20rem;
+    width: 40rem;
+    background: white;
+    resize: none;
+}
+
+input[type="checkbox"]
+.radio {
+    margin-right: 2rem;
+}
