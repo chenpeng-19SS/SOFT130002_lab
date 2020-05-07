@@ -45,3 +45,5 @@ map：可以对数组中的每一个值进行相同的操作，返回另一个�
 ![](img\本地命令行.png)
 
 github截图：
+
+![](img\lab6github.png)
